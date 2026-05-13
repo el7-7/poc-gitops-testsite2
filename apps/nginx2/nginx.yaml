@@ -12,7 +12,7 @@ spec:
   project: default
 
   source:
-    repoURL: https://charts.bitnami.com/bitnami
+    repoURL: registry-1.docker.io/bitnamicharts
     chart: nginx
     targetRevision: 15.14.0
     helm:
@@ -21,7 +21,7 @@ spec:
 
   destination:
     server: https://kubernetes.default.svc
-    namespace: nginx-slow
+    namespace: org2
 
   syncPolicy:
     automated:
