@@ -1,10 +1,10 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: wordpress-app
+  name: nginx-testsites
   namespace: argocd
 spec:
-  project: wordpress-org1
+  project: org2
   source:
     repoURL: https://github.com/el7-7/poc-gitops-testsite2.git
     path: apps
