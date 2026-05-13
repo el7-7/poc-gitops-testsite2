@@ -1,0 +1,4 @@
+initContainers:
+  - name: slow-start
+    image: busybox
+    command: ["sh", "-c", "sleep 120"]
