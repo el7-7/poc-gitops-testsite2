@@ -14,7 +14,7 @@ spec:
   source:
     repoURL: registry-1.docker.io/bitnamicharts
     chart: nginx
-    targetRevision: 15.14.0
+    targetRevision: 18.3.6
     helm:
       valueFiles:
         - values.yaml
