@@ -9,7 +9,7 @@ metadata:
     notifications.argoproj.io/subscribe.on-sync-failed.slack: argocd-notifications
     notifications.argoproj.io/subscribe.on-sync-cancelled.slack: argocd-notifications
 spec:
-  project: default
+  project: org2
 
   source:
     repoURL: https://charts.bitnami.com/bitnami
